@@ -38,6 +38,7 @@ python baseline.py
 python evaluate.py --rec\_file ../data/top\_pop\_recs.csv --k 10  
 python bert\_reg.py    
 python cf\_svdpp.py  
+python evaluate.py --rec_file ../data/svdpp_recs_mid.csv --k 10   
 
 ---  
 
