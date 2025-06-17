@@ -1,0 +1,4 @@
+model,prec,recall,ndcg,rmse
+Top-Pop,0.0093,0.0931,0.0458,
+SVD++-mid,0.0014,0.0144,0.0066,
+BERT-mid,,,,0.71
