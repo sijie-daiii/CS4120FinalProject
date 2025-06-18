@@ -34,11 +34,11 @@ python prepare\_data.py
 
 ---  
 
-python baseline.py  
-python evaluate.py --rec\_file ../data/top\_pop\_recs.csv --k 10  
-python bert\_reg.py    
-python cf\_svdpp.py  
-python evaluate.py --rec_file ../data/svdpp_recs_mid.csv --k 10   
+python src/baseline.py  
+python src/evaluate.py --rec\_file ../data/top\_pop\_recs.csv --k 10  
+python src/bert\_reg\_mid.py    
+python src/cf\_svdpp\_mid.py  
+python src/evaluate.py --rec_file data/svdpp_recs_mid.csv --k 10
 
 ---  
 
@@ -46,4 +46,4 @@ python evaluate.py --rec_file ../data/svdpp_recs_mid.csv --k 10
 
 ---  
 
-python save\_metrics.py  
+python src/save\_metrics.py  
